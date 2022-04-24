@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* barra de navegacion */
+.nav {
+    background-color: black;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
+
+.nav-a {
+    padding: 10px;
+    margin: 10px;
+}
+
+ul, li {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+/* presentacion */
+div {
+    background-image: url(../images/barmoza.jpg);
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 4rem;
+    color: black;
+    text-align: center;
+    text-shadow: 3px 6px 8px white;
+    text-transform: uppercase;
+}
+
+.discover {
+    color: orange;
+    font-family: 'Pacifico', cursive;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 3px 6px 8px white;
+    font-size: 5em;
+    padding-bottom: 10%;
+    text-transform: capitalize;
+}
+
+.open {
+    color: black;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 3px 6px 8px white;
+    font-size: 2em;
+    padding-top: 10%;
+    text-transform: capitalize;
+}
+/* section1 */
+
+.section-one {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.title-c {
+color: white;
+text-decoration: solid 5px;
+margin-bottom: auto;
+}
+
+.concept {
+        background: black;
+        background-size: cover;
+        display: flex;
+        position: center;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        width: 500px;
+        right: 30%;
+      }
+
+    p#preline {
+        white-space: pre-line;
+        color: white;
+        margin-right: 50px;
+    }
+
+    /* tabla */
+
+    .table-menu {
+        background-image: url(../images/palmeras.jpg);
+        background-size: cover;
+        justify-content: center;
+        margin-left: 150px;
+        text-align: center;
+        font-size: 1.5rm;
+    }
+
+    table, th, td {
+        text-transform: uppercase;
+        border-collapse: collapse;
+    }
+    
+    thead {
+        text-transform: uppercase;
+        color: black;
+        font-size: 1.7rem;
+    }
+tbody {
+    opacity: 80%;
+    text-align: justify;
+}
+    tr, td {
+        padding: 0.5rem;
+    }
+    
+    thead th:nth-child(1) {
+        width: 25rem;
+        padding: 1rem;
+    }
+    
+    thead th:nth-child(1) {
+        width: 30rem;
+        padding: 1rem;
+    }
+/* reservas */
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .title-bookings {
+        color: black;
+        font-size: 40px;
+        margin: 4rem 0;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        max-width: 80%;
+        min-width: 40%;
+    }
+
+    .form__label {
+        font-size: 1.2rem;
+        margin: 1rem 0;
+    }
+
+    .form__input {
+        padding: 0.8rem 1rem;
+        margin: 0.5rem 0;
+        border: 1px solid black;
+        color: rgb(48, 44, 44);
+        font-size: 1rem;
+        width: 150px;
+    }
+
+    .form__select {
+    padding: 0.8rem 1rem;
+    color: black;
+    font-size: 1rem;
+}
+
+
+.form__btn {
+    width: 500px;
+    padding: 0.7rem 2rem;
+    margin: 0.5rem auto;
+    cursor: pointer;
+}
+
+.form__btn--submit {
+background-color: black;
+color: white;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.facebook-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.instagram-icon {
+    width: 30px;
+    height: 30px;
+}
